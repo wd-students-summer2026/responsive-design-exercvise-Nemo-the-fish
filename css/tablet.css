@@ -1,0 +1,20 @@
+
+* {box-sizing: border-box;}
+.container {
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "col1 col2"
+    "col3 col3"
+    "footer footer";
+    gap: 10px;
+}
+header {grid-area: header;}
+.column1 {grid-area: col1;}
+.column2 {grid-area: col2;}
+.column3 {grid-area: col3;}
+footer {grid-area: footer;}
+img {max-width: 100%;}

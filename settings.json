@@ -2,5 +2,20 @@
   "name": "Foo Barstein",
   "nyu_net_id": "fb1258",
   "site_url": "http://i6.cims.nyu.edu/~fb1258",
-  "responsive_column_selectors": [".column1", ".column2", ".column3"]
+  "responsive_column_selectors": [".column1", ".column2", ".column3"],
+  "clickable_prototype_url": "https://www.figma.com/proto/lCp0gNaGYwBJlHOngpAY3Z/ZimoUX?node-id=2-321&p=f&t=Kx5G75FSCLSwWDNv-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A321",
+
+  "content_change": {
+    "trigger_selector": "#text_button",
+    "target_selector": "#text_target",
+    "event": "click"
+  },
+  "imge_swap": {
+    "image_selector": "#swap_image"
+  },
+  "animation": {
+    "trigger_selector": "move_button",
+    "target_selector": "move_target",
+    "event": "click"
+  }
 }
